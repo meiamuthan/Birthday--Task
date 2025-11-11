@@ -5,7 +5,7 @@ import Cards from './Cards'
 function App() {
   
   const [lists,setLists]= useState(data)
-  const [showdata , setShowdata] = useState(true)  
+  const [showdata , setShowdata] = useState(true)  // visible the button
   
   const Delete=()=>{
     setLists([])
